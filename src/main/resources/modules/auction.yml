@@ -1,0 +1,10 @@
+# ==========================================================
+#  Modul: auction  (Befehl /ah)
+#  tax-percent:  Steuer, die der Verkäufer beim Verkauf zahlt
+#  expire-hours: Laufzeit eines Angebots (danach ins Postfach)
+# ==========================================================
+tax-percent: 5
+expire-hours: 48
+max-listings: 10
+min-price: 1
+max-price: 1000000000

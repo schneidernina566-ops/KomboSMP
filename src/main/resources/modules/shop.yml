@@ -1,0 +1,53 @@
+# ==========================================================
+#  Modul: shop  (Befehl /shop)
+#  buy  = Kaufpreis pro Stück
+#  sell = Verkaufspreis pro Stück (0 = nicht verkaufbar)
+#  Max. 45 Artikel pro Kategorie.
+# ==========================================================
+categories:
+  blocks:
+    display: "Blöcke"
+    icon: GRASS_BLOCK
+    items:
+      - {material: STONE, buy: 2, sell: 1}
+      - {material: COBBLESTONE, buy: 1, sell: 0}
+      - {material: OAK_LOG, buy: 3, sell: 1}
+      - {material: OAK_PLANKS, buy: 1, sell: 0}
+      - {material: SAND, buy: 2, sell: 1}
+      - {material: GLASS, buy: 3, sell: 1}
+      - {material: BRICKS, buy: 4, sell: 2}
+      - {material: OBSIDIAN, buy: 40, sell: 20}
+
+  ores:
+    display: "Erze & Barren"
+    icon: DIAMOND
+    items:
+      - {material: COAL, buy: 2, sell: 1}
+      - {material: IRON_INGOT, buy: 8, sell: 4}
+      - {material: COPPER_INGOT, buy: 6, sell: 3}
+      - {material: GOLD_INGOT, buy: 12, sell: 6}
+      - {material: REDSTONE, buy: 2, sell: 1}
+      - {material: LAPIS_LAZULI, buy: 3, sell: 1}
+      - {material: DIAMOND, buy: 30, sell: 15}
+      - {material: EMERALD, buy: 25, sell: 12}
+      - {material: NETHERITE_INGOT, buy: 500, sell: 250}
+
+  food:
+    display: "Essen"
+    icon: COOKED_BEEF
+    items:
+      - {material: BREAD, buy: 2, sell: 1}
+      - {material: COOKED_BEEF, buy: 3, sell: 1}
+      - {material: COOKED_CHICKEN, buy: 2, sell: 1}
+      - {material: GOLDEN_APPLE, buy: 60, sell: 30}
+      - {material: GOLDEN_CARROT, buy: 25, sell: 12}
+
+  tools:
+    display: "Werkzeuge"
+    icon: DIAMOND_PICKAXE
+    items:
+      - {material: TORCH, buy: 1, sell: 0}
+      - {material: ARROW, buy: 1, sell: 0}
+      - {material: BUCKET, buy: 10, sell: 5}
+      - {material: ENDER_PEARL, buy: 25, sell: 12}
+      - {material: ELYTRA, buy: 2000, sell: 1000}

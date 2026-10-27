@@ -1,0 +1,30 @@
+# ==========================================================
+#  Modul: crates  (/crates, /key buy <kiste>, /key give ...)
+#  key-price:   Shards für einen Schlüssel
+#  roll-steps:  Anzahl Animationsschritte (je 3 Ticks)
+#  rewards:     chance = Gewicht (je höher, desto wahrscheinlicher)
+#               material + amount + name  -> Item als Belohnung
+#               commands                  -> Konsolenbefehle, {player} = Spielername
+# ==========================================================
+crates:
+  common:
+    display: "<gray>Common-Kiste"
+    key-price: 150
+    roll-steps: 20
+    rewards:
+      - {chance: 40, material: IRON_INGOT, amount: 8, name: "<gray>Eisenbarren"}
+      - {chance: 30, material: GOLDEN_APPLE, amount: 1, name: "<gold>Goldener Apfel"}
+      - {chance: 20, material: EMERALD, amount: 4, name: "<green>Smaragde"}
+      - {chance: 9, material: DIAMOND, amount: 3, name: "<aqua>Diamanten"}
+      - {chance: 1, commands: ["give {player} netherite_ingot 1"]}
+
+  legendary:
+    display: "<gold>Legendäre Kiste"
+    key-price: 1000
+    roll-steps: 30
+    rewards:
+      - {chance: 40, material: DIAMOND, amount: 10, name: "<aqua>Diamanten"}
+      - {chance: 30, material: EMERALD, amount: 16, name: "<green>Smaragde"}
+      - {chance: 20, material: ENCHANTED_GOLDEN_APPLE, amount: 1, name: "<light_purple>Verzauberter Goldapfel"}
+      - {chance: 9, material: NETHERITE_INGOT, amount: 1, name: "<dark_purple>Netherit-Barren"}
+      - {chance: 1, commands: ["give {player} elytra 1"]}

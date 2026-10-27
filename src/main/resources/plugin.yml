@@ -1,0 +1,88 @@
+name: KomboSMP
+version: 1.0.0
+main: com.kombo.smp.KomboSMP
+api-version: '1.21'
+author: DeinName
+description: KomboSMP - modularer All-in-One SMP (Shards, Shop, AH, Orders, Crates, RTP, Homes, Warps und mehr)
+
+commands:
+  shards:
+    description: Shards anzeigen oder verwalten
+    usage: "/shards [spieler] | /shards <give|take|set> <spieler> <betrag>"
+  pay:
+    description: Shards an einen Spieler senden
+    usage: "/pay <spieler> <betrag>"
+  collect:
+    description: Postfach leeren
+    aliases: [postfach]
+  baltop:
+    description: Die reichsten Spieler
+    aliases: [top]
+  shop:
+    description: Öffnet den Shop
+    aliases: [markt]
+  ah:
+    description: Auktionshaus
+    usage: "/ah [sell <preis> | mine | collect]"
+    aliases: [auction, auktion]
+  orders:
+    description: Order-Liste öffnen
+  order:
+    description: Neue Order erstellen
+    usage: "/order create <item> <menge> <preis pro Stück>"
+  rules:
+    description: Serverregeln
+    aliases: [regeln]
+  rtp:
+    description: Zufalls-Teleport
+  rtpq:
+    description: Schneller Zufalls-Teleport in der Nähe
+  sethome:
+    description: Home setzen
+    usage: "/sethome [name]"
+  home:
+    description: Zu einem Home teleportieren
+    usage: "/home [name]"
+  delhome:
+    description: Home löschen
+    usage: "/delhome <name>"
+  homes:
+    description: Deine Homes anzeigen
+  warp:
+    description: Zu einem Warp teleportieren
+    usage: "/warp <name>"
+  setwarp:
+    description: Warp setzen
+    usage: "/setwarp <name>"
+    permission: smp.admin
+  delwarp:
+    description: Warp löschen
+    usage: "/delwarp <name>"
+    permission: smp.admin
+  spawn:
+    description: Zum Spawn teleportieren
+  setspawn:
+    description: Spawn setzen
+    permission: smp.admin
+  crates:
+    description: Kisten-Menü öffnen
+  key:
+    description: Kisten-Schlüssel kaufen oder geben
+    usage: "/key buy <kiste> | /key give <spieler> <kiste> <menge>"
+  heal:
+    description: Leben auffüllen
+  feed:
+    description: Hunger auffüllen
+  fly:
+    description: Fliegen an/aus
+  ec:
+    description: Enderkiste öffnen
+    aliases: [enderchest]
+  admin:
+    description: Admin-Panel (Module an/aus, Reload)
+    permission: smp.admin
+
+permissions:
+  smp.admin:
+    description: Admin-Befehle und Admin-Panel
+    default: op

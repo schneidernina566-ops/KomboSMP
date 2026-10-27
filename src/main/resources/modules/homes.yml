@@ -1,0 +1,3 @@
+# Modul: homes  (/sethome, /home, /delhome, /homes)
+# max: wie viele Homes ein Spieler setzen darf
+max: 3

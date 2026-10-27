@@ -1,0 +1,16 @@
+# ==========================================================
+#  Modul: tools  (/heal, /feed, /fly, /ec)
+#  costs:     Kosten in Shards pro Nutzung (0 = gratis)
+#  cooldowns: Wartezeit in Sekunden (0 = keine)
+# ==========================================================
+costs:
+  heal: 0
+  feed: 0
+  fly: 0
+  ec: 0
+
+cooldowns:
+  heal: 60
+  feed: 60
+  fly: 0
+  ec: 0

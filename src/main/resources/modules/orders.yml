@@ -1,0 +1,3 @@
+# Modul: orders  (/orders, /order create <item> <menge> <preis>)
+# max-per-player: wie viele offene Orders ein Spieler gleichzeitig haben darf
+max-per-player: 5

@@ -1,0 +1,25 @@
+# ==========================================================
+#  KomboSMP - Hauptkonfiguration
+#  Jedes Modul hat zusätzlich eine eigene Datei unter
+#  plugins/KomboSMP/modules/<modul>.yml
+# ==========================================================
+
+currency:
+  symbol: "◆"
+
+# Module an- oder ausschalten (oder im Spiel über /admin).
+# Änderungen greifen nach /admin -> Reload oder nach Neustart.
+modules:
+  economy: true   # /shards, /pay, /collect
+  shop: true      # /shop
+  earning: true   # Shards für Mobs, Erze und Spielzeit
+  homes: true     # /sethome, /home, /delhome, /homes
+  warps: true     # /warp, /spawn, /setwarp, /delwarp, /setspawn
+  rtp: true       # /rtp, /rtpq
+  rules: true     # /rules
+  auction: true   # /ah
+  orders: true    # /orders, /order
+  baltop: true    # /baltop
+  crates: true    # /crates, /key
+  tools: true     # /heal, /feed, /fly, /ec
+  admin: true     # /admin

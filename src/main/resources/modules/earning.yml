@@ -1,0 +1,37 @@
+# ==========================================================
+#  Modul: earning  (kein Befehl, läuft automatisch)
+#  mobs:     Shards für Mob-Kills durch Spieler
+#  blocks:   Shards für abgebaute Erze (von Spielern platzierte Blöcke zählen nicht)
+#  playtime: passives Einkommen für alle Online-Spieler
+# ==========================================================
+playtime:
+  interval-minutes: 10
+  amount: 5
+
+mobs:
+  ZOMBIE: 2
+  SKELETON: 2
+  CREEPER: 3
+  SPIDER: 2
+  ENDERMAN: 8
+  WITCH: 5
+  WITHER_SKELETON: 10
+  ENDER_DRAGON: 500
+
+blocks:
+  COAL_ORE: 1
+  DEEPSLATE_COAL_ORE: 1
+  IRON_ORE: 2
+  DEEPSLATE_IRON_ORE: 2
+  COPPER_ORE: 1
+  DEEPSLATE_COPPER_ORE: 1
+  GOLD_ORE: 3
+  DEEPSLATE_GOLD_ORE: 3
+  REDSTONE_ORE: 2
+  DEEPSLATE_REDSTONE_ORE: 2
+  LAPIS_ORE: 3
+  DEEPSLATE_LAPIS_ORE: 3
+  DIAMOND_ORE: 10
+  DEEPSLATE_DIAMOND_ORE: 10
+  EMERALD_ORE: 15
+  DEEPSLATE_EMERALD_ORE: 15

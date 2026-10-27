@@ -1,0 +1,9 @@
+# Modul: rules  (/rules)
+# MiniMessage ist erlaubt, z.B. <green>, <red>, <bold>
+rules:
+  - "<green>1.</green> Kein Griefing fremder Bauten."
+  - "<green>2.</green> Kein Diebstahl und keine Betrügereien."
+  - "<green>3.</green> Respektvoller Umgang mit allen Spielern."
+  - "<green>4.</green> Kein Cheaten und keine Mods mit unfairen Vorteilen."
+  - "<green>5.</green> Werbung und Beleidigungen im Chat sind verboten."
+  - "<green>6.</green> Bei Problemen wende dich an einen Admin."
